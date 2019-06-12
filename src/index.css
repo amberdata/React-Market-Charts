@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.token-button-row {
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+  margin-top: 30px;
+}
+
+.token-button-row input {
+  width: 100px;
+}
+
+.token-button {
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+}
+
+.bnb {
+  background-image: url("bnb.png")
+}
+.mkr {
+  background-image: url("mkr.png")
+}
+.bat {
+  background-image: url("bat.png")
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.api-key-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 0;
+}
+
+.api-key-container input {
+  width: 200px
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+ul li {
+  color: #003366;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.active {
+  font-weight: 700;
+}
